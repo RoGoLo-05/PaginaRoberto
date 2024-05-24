@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roberto Gómez López</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/bootstrap.bundle.js"></script>
     <link rel="icon" type="image/x-icon" href="img/miLogo2.png">
@@ -13,21 +14,35 @@
       <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <img src="img/miLogo1.png" alt="logo" width="50">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-            <span class="fs-4 text-white ">Roberto Gómez López</span>
+            <span class="fs-4 text-white nav-link" id="nombre">Roberto Gómez López</span>
           </a>
     
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active bg-warning text-black" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-warning link-body-emphasis">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-warning">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-warning">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-warning">About</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link active bg-warning text-black" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="html/gallery.html" class="nav-link text-warning link-body-emphasis">Galería</a></li>
+            <li class="nav-item"><a href="html/contact.html" class="nav-link text-warning link-body-emphasis">Contacto</a></li>
+            <li class="nav-item"><a href="html/aboutme.html" class="nav-link text-warning link-body-emphasis">Sobre mí</a></li>
           </ul>
         </div>
       </div>
     </header>
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="img/logo.png"d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">¡Hola! Soy Roberto</h1>
+            <p class="lead">Soy un desarrollador full-stack</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+            </div>
+          </div>
+        </div>
+      </div>
       
 </body>
 </html>

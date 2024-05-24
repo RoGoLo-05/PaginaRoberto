@@ -1,0 +1,11 @@
+#nombre:hover{
+    color: rgb(186, 186, 186) !important;
+}
+
+.nav-link.link-body-emphasis:hover {
+    color: #bd8d15 !important;  /* Amarillo más oscuro */
+}
+
+.nav-link.bg-warning:hover{
+    background-color: #bd8d15 !important;
+}
