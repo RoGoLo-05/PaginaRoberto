@@ -9,3 +9,27 @@
 .nav-link.bg-warning:hover{
     background-color: #bd8d15 !important;
 }
+
+:root{ /*Colores que he "creado". Les pongo un nombre*/
+    --bs-gris: #a2a9ae;
+    --bs-amarillo: #c99000;
+}
+
+.bg-gris{
+    background-color: var(--bs-gris); /*Guardo el color(--bs-gris) en el class(bg-gris) que he creado para ese color*/
+}
+
+.bg-amarilloOscuro{
+    background-color: var(--bs-amarillo); 
+}
+
+.text-gris{
+    color: var(--bs-gris);
+}
+
+.text-amarillo{
+    color: var(--bs-amarillo); 
+}
+
+
+
