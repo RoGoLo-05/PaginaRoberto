@@ -4,9 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roberto Gómez López</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/bootstrap.bundle.js"></script>
     <link rel="icon" type="image/x-icon" href="img/miLogo2.png">
 </head>
 <body>
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <img src="../img/miLogo1.png" alt="logo" width="50">
+            <a href="../index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+              <span class="fs-4 text-white nav-link" id="nombre">Roberto Gómez López</span>
+            </a>
+      
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a href="../index.html" class="nav-link active bg-warning text-black" aria-current="page">Inicio</a></li>
+              <li class="nav-item"><a href="../html/gallery.html" class="nav-link text-warning link-body-emphasis">Galería</a></li>
+              <li class="nav-item"><a href="../html/contact.html" class="nav-link text-warning link-body-emphasis">Contacto</a></li>
+              <li class="nav-item"><a href="../html/aboutme.html" class="nav-link text-warning link-body-emphasis">Sobre mí</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      
+      <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6" id="formulario"> <!--Ocupa 6 columnas, así queda más estrecho el formulario-->
+                <h2>Formulario de Contacto</h2>
+                <form id="contactForm" class="needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                        <div class="invalid-feedback">
+                            Este campo es obligatorio.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="apellidos" class="form-label">Apellidos</label>
+                        <input type="text" class="form-control" id="apellidos" name="apellidos" required>
+                        <div class="invalid-feedback">
+                            Este campo es obligatorio.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Género</label>
+                        <div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="genero" id="masculino" value="masculino" required>
+                                <label class="form-check-label" for="masculino">Masculino</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="genero" id="femenino" value="femenino" required>
+                                <label class="form-check-label" for="femenino">Femenino</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="genero" id="otro" value="otro" required>
+                                <label class="form-check-label" for="otro">Otro</label>
+                            </div>
+                        </div>
+                        <div class="invalid-feedback">
+                            Este campo es obligatorio.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com" required>
+                        <div class="invalid-feedback">
+                            Este campo es obligatorio.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Escriba un mensaje..." required></textarea>
+                        <div class="invalid-feedback">
+                            Este campo es obligatorio.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="motivo" class="form-label">Motivo de Consulta</label>
+                        <select class="form-select" id="motivo" name="motivo" required>
+                            <option value="" selected disabled>Seleccione un motivo</option>
+                            <option value="consulta">Consulta</option>
+                            <option value="sugerencia">Sugerencia</option>
+                            <option value="queja">Queja</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Este campo es obligatorio.
+                        </div>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="terminos" name="terminos" required>
+                        <label class="form-check-label" for="terminos">Acepto los términos y condiciones</label>
+                        <div class="invalid-feedback">
+                            Este campo es obligatorio.
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
