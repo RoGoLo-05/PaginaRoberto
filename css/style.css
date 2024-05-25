@@ -38,3 +38,6 @@
     padding: 20px;
 }
 
+.btn.btn-sm.btn-outline-secondary.bg-warning.text-dark:hover{
+    background-color: #bd8d15 !important;
+}
