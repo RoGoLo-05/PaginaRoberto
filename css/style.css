@@ -41,3 +41,8 @@
 .btn.btn-sm.btn-outline-secondary.bg-warning.text-dark:hover{
     background-color: #bd8d15 !important;
 }
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo gris oscuro semi-transparente */
+}
+
