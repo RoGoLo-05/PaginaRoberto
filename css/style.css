@@ -46,3 +46,6 @@
     background-color: rgba(0, 0, 0, 0.5); /* Fondo gris oscuro semi-transparente */
 }
 
+.imagenTamanio{
+    height: 24px;
+}
