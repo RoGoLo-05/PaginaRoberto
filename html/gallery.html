@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roberto Gómez López</title>
-    <link rel="stylesheet" href="../css/style.css">
+    
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script src="../js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+
     <link rel="icon" type="image/x-icon" href="../img/miLogo2.png">
 </head>
 <body>
@@ -44,8 +47,8 @@
       <section class="py-5 text-center container">
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light">Mis proyectos</h1>
-            <p class="lead text-body-secondary pb-5">Aquí puedes ver los diferentes proyectos que he realizado.</p>
+            <h1 class="fw-light display-2">Mis proyectos</h1>
+            <p class="lead text-body-secondary pb-5 mt-4">Aquí puedes ver los diferentes proyectos que he realizado.</p>
           </div>
 
           <div id="carouselExampleCaptions" class="carousel slide">
@@ -57,21 +60,21 @@
             <div class="carousel-inner">
                 <div class="carousel-item active text-center">
                     <img src="../img/la_redonda.png" class="d-block w-50 mx-auto" alt="...">
-                    <div class="carousel-caption d-none d-md-block w-50 mx-auto">
+                    <div class="carousel-caption d-md-block w-50 mx-auto">
                         <h5>La Redonda</h5>
                         <p>Una tienda online de camisetas.</p>
                     </div>
                 </div>
                 <div class="carousel-item text-center">
                     <img src="../img/josemodo.png" class="d-block w-50 mx-auto" alt="...">
-                    <div class="carousel-caption d-none d-md-block w-50 mx-auto">
+                    <div class="carousel-caption d-md-block w-50 mx-auto">
                         <h5>Juego José Modo.</h5>
                         <p>Un juego de aventuras.</p>
                     </div>
                 </div>
                 <div class="carousel-item text-center">
                     <img src="../img/josemodo_pagina.png" class="d-block w-50 mx-auto" alt="...">
-                    <div class="carousel-caption d-none d-md-block w-50 mx-auto">
+                    <div class="carousel-caption d-md-block w-50 mx-auto">
                         <h5>Página José Modo</h5>
                         <p>Página web del juego José Modo.</p>
                     </div>
@@ -105,7 +108,7 @@
                     <p class="card-text">Aplicación "La Redonda"</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                          <a href="#LaRedondaTitulo" class="btn btn-sm btn-outline-secondary bg-warning text-dark" role="button">Más información</a>
+                          <a href="#LaRedondaTitulo" class="btn btn-sm btn-outline-secondary bg-warning text-dark" role="button" onclick="return confirmarGithub()">Más información</a>
                       </div>
                     </div>
                   </div>
@@ -119,7 +122,7 @@
                   <p class="card-text">Juego "José Modo"</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                        <a href="#JoseModoTitulo" class="btn btn-sm btn-outline-secondary bg-warning text-dark" role="button">Más información</a>
+                        <a href="#JoseModoTitulo" class="btn btn-sm btn-outline-secondary bg-warning text-dark" role="button" onclick="return confirmarGithub()">Más información</a>
                     </div>
                   </div>
                 </div>
@@ -133,7 +136,7 @@
                   <p class="card-text">Página web del juego "José Modo"</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                        <a href="#PaginaJoseModoTitulo" class="btn btn-sm btn-outline-secondary bg-warning text-dark" role="button">Más información</a>
+                        <a href="#PaginaJoseModoTitulo" class="btn btn-sm btn-outline-secondary bg-warning text-dark" role="button" onclick="return confirmarGithub()">Más información</a>
                     </div>
                   </div>
                 </div>
@@ -150,7 +153,7 @@
 
 
 
-    <div class="bg-gris">
+    <div class="contenedorGaleria">
 
       <div class="container marketing py-5">
 
