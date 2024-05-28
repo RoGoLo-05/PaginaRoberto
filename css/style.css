@@ -57,6 +57,39 @@
     background: linear-gradient(to bottom,rgb(113, 113, 113), rgb(157, 157, 157), rgb(209, 209, 209));
 }
 
+.contenedorSobreMi{
+    background-color: #bdbdbd;
+}
+
+/* Efecto de relieve y acercamiento para las tarjetas */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-hover2 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover2:hover {
+    transform: scale(1.01);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Efecto de relieve y acercamiento para los botones */
+.btn-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
 #formulario{
     border: 1px solid #ccc;
     border-radius: 10px;
