@@ -31,6 +31,10 @@
     color: var(--bs-amarillo); 
 }
 
+.contenedorInicial{
+    background: linear-gradient(to right, rgba(53, 53, 53, 0.8) 30%, rgba(142, 142, 142, 0.8) 100%);
+}
+
 #formulario{
     border: 1px solid #ccc;
     border-radius: 10px;
