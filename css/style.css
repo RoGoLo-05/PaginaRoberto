@@ -80,6 +80,15 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
+.card-hover3 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover3:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
 /* Efecto de relieve y acercamiento para los botones */
 .btn-hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
